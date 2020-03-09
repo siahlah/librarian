@@ -1,0 +1,20 @@
+{
+  "name": "librarian",
+  "version": "1.0.0",
+  "description": "Node.js application that indexes, categorises and adds meta description layer to files in a category",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siahlah/librarian.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siahlah/librarian/issues"
+  },
+  "homepage": "https://github.com/siahlah/librarian#readme"
+}
