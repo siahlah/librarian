@@ -4,6 +4,8 @@
   "description": "Node.js application that indexes, categorises and adds meta description layer to files in a category",
   "main": "index.js",
   "scripts": {
+    "index": "node app.js testindex",
+    "library": "echo 'Serve script here'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/siahlah/librarian/issues"
   },
-  "homepage": "https://github.com/siahlah/librarian#readme"
+  "homepage": "https://github.com/siahlah/librarian#readme",
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "mongoose": "5.9.4"
+  }
 }
